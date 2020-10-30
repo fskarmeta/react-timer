@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+    height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card  {
+    height: 210px;
+    width: 150px;
+    border-radius: 20px;
+    margin: 0 5px;
+    background-color: rgb(12, 11, 11);
+    border: 5px solid  #daa520 ;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.card-n {
+    font-size: 10rem;
+    font-family: 'Concert One', cursive;
+    color: white;
+}
+
+.card-i {
+  font-size: 8rem;
+  font-family: 'Concert One', cursive;
+  fill: #fff;
+    -webkit-animation: animation-button 20000ms infinite;
+    -moz-animation: animation-button 20000ms infinite;
+    -o-animation: animation-button 20000ms infinite;
+    animation: animation-button 20000ms infinite;
+    
+}
+
+@-webkit-keyframes animation-button {
+  0%   {color:#daa520; }
+  25%  {color:yellow; }
+  50%  {color:#daa520; }
+  75%  {color:yellow; }
+  100% {color:#daa520; }
+}
+@keyframes animation-button {
+  0%   {color:rgb(182, 121, 28); }
+  25%  {color:yellow; }
+  50%  {color:rgb(213, 125, 32); }
+  75%  {color:#daa520; }
+  100% {color:rgb(221, 154, 10); }
+}
+
+
+.btn-c {
+  width: 150px;
+  height: 50px;
+  background: rgb(12, 11, 11);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  border: 2px solid #daa520;
+  border-radius: 10px;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  font-family: 'Concert One', cursive;
 }
