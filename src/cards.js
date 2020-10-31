@@ -5,7 +5,7 @@ const Card = (props) => {
   return (
     <div className="container">
       <div className="row mt-5">
-        <div className="card d-flex text-center justify-content-center">
+        <div className="card-j d-flex text-center justify-content-center">
           <span className="card1-number card-i">
             <i className="far fa-clock"></i>
           </span>

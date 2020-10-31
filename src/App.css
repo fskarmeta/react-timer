@@ -22,10 +22,33 @@ body {
     border: 5px solid  #daa520 ;
 }
 
+.card-j  {
+  height: 210px;
+  width: 150px;
+  border-radius: 20px;
+  margin: 0 5px;
+  background-color: rgb(12, 11, 11);
+  border: 5px solid  #daa520 ;
+}
+
+.card-j:hover {
+  background-color: rgba(36, 35, 33, 0.2);
+}
+
 .card-n {
     font-size: 10rem;
     font-family: 'Concert One', cursive;
     color: white;
+}
+
+.card-n:hover {
+  color: black;
+}
+
+.card:hover {
+  background: #daa520;
+  color: black;
+  border: 2px solid #daa520;
 }
 
 .card-i {
@@ -36,8 +59,9 @@ body {
     -moz-animation: animation-button 20000ms infinite;
     -o-animation: animation-button 20000ms infinite;
     animation: animation-button 20000ms infinite;
-    
 }
+
+
 
 @-webkit-keyframes animation-button {
   0%   {color:#daa520; }
@@ -65,4 +89,10 @@ body {
   margin-left: 1rem;
   font-size: 1.5rem;
   font-family: 'Concert One', cursive;
+}
+
+.btn-c:hover {
+  background: #daa520;
+  color: black;
+  border: 2px solid black;
 }

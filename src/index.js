@@ -69,7 +69,7 @@ setTimeout(function(){
   }  else {
   count[6]++;
   }
-}, 500)
+}, 1)
 
 
  
